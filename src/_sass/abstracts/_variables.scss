@@ -1,0 +1,69 @@
+@use "../abstracts/mixins";
+
+$break-s: 512px;
+$break-m: 768px;
+$break-l: 1024px;
+
+:root {
+    --c-background: #fbf6ef;
+    --c-text: #46844f;
+    --c-graphic: #ab5392;
+
+    --f-display: "Daleys Gothic Bd", monospace, sans-serif;
+    --f-text: "Quiosco Reg", serif;
+    --f-text-bold: "Quiosco Bd", serif;
+
+    --t-s: 1rem;
+    --t-m: 1.3rem;
+    --t-l: 1.8rem;
+    --t-xl: 2rem;
+
+    --s-s: 0.5rem;
+    --s-m: 1rem;
+    --s-l: 2rem;
+    --s-xl: 3rem;
+    --s-xxl: 6rem;
+    --s-xxxl: 10rem;
+
+    @include mixins.respond-above($break-s) {
+        --t-s: 1rem;
+        --t-m: 1.5rem;
+        --t-l: 2rem;
+        --t-xl: 4rem;
+
+        --s-s: 0.5rem;
+        --s-m: 1rem;
+        --s-l: 2rem;
+        --s-xl: 3rem;
+        --s-xxl: 6rem;
+        --s-xxxl: 10rem;
+    }
+
+    @include mixins.respond-above($break-m) {
+        --t-s: 1rem;
+        --t-m: 2rem;
+        --t-l: 3rem;
+        --t-xl: 5rem;
+
+        --s-s: 0.5rem;
+        --s-m: 1rem;
+        --s-l: 2rem;
+        --s-xl: 3rem;
+        --s-xxl: 6rem;
+        --s-xxxl: 10rem;
+    }
+
+    @include mixins.respond-above($break-l) {
+        --t-s: 1rem;
+        --t-m: 2rem;
+        --t-l: 3rem;
+        --t-xl: 5rem;
+
+        --s-s: 0.5rem;
+        --s-m: 1rem;
+        --s-l: 2rem;
+        --s-xl: 3rem;
+        --s-xxl: 6rem;
+        --s-xxxl: 10rem;
+    }
+}

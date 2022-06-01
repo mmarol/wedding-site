@@ -1,0 +1,114 @@
+@use "../abstracts/variables";
+@use "../abstracts/type-styles";
+@use "../abstracts/mixins";
+
+.form__container {
+}
+
+.form__item {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: var(--s-l);
+    @extend %form-title;
+
+    label {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        height: var(--s-xxl);
+        flex-basis: 100%;
+
+        span {
+            @extend %body;
+            flex-basis: 100%;
+        }
+    }
+
+    input {
+        height: var(--s-xxl);
+        flex-basis: 100%;
+        width: 100%;
+        box-sizing: border-box;
+        padding: var(--s-m);
+        background-color: transparent;
+        border: 1px solid var(--c-graphic);
+        border-radius: 0;
+        color: var(--c-graphic);
+
+        &[type="text"] {
+        }
+
+        &[type="email"] {
+        }
+
+        &[type="submit"] {
+            transition: all 0.2s ease;
+            cursor: pointer;
+            background-color: var(--c-graphic);
+            color: var(--c-background);
+
+            &:hover {
+                background-color: var(--c-text);
+            }
+        }
+    }
+
+    select {
+        height: var(--s-xxl);
+        flex-basis: 100%;
+        width: 100%;
+        box-sizing: border-box;
+        padding: var(--s-m);
+        background-color: transparent;
+        border: 1px solid var(--c-graphic);
+        border-radius: 0;
+        color: var(--c-graphic);
+
+        &::after {
+            content: "asdas";
+        }
+
+        option {
+            background-color: var(--c-graphic);
+            color: var(--c-background);
+        }
+    }
+
+    textarea {
+        flex-basis: 100%;
+        width: 100%;
+        height: var(--s-xxxl);
+        box-sizing: border-box;
+        padding: var(--s-m);
+        background-color: transparent;
+        border: 1px solid var(--c-graphic);
+        border-radius: 0;
+        color: var(--c-graphic);
+        @extend %body;
+    }
+
+    @include mixins.respond-above(variables.$break-m) {
+        label {
+            flex-basis: 40%;
+            width: 40%;
+        }
+
+        input,
+        select,
+        textarea {
+            flex-basis: 60%;
+            width: 60%;
+        }
+
+        input[type="submit"] {
+            margin-left: 40%;
+            transition: all 0.2s ease;
+            cursor: pointer;
+
+            &:hover {
+                background-color: var(--c-graphic);
+                color: var(--c-background);
+            }
+        }
+    }
+}

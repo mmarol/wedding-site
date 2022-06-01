@@ -1,0 +1,22 @@
+/* --------------------------------------------------------
+RESPONSIVE QUERY MIXIN
+Usage Example: 
+    @include mixins.respond-above(s-l) {
+        // color: red;
+    };
+The arguments can be any of the variable key names in ../abstracts/_responsize-sizes.scss.
+-------------------------------------------------------- */
+@mixin respond-above($breakpoint) {
+    $queries: "screen and (min-width: #{$breakpoint})";
+    @media #{$queries} {
+        @content;
+    }
+}
+
+@mixin respond-below($breakpoint) {
+    $queries: "screen and (max-width: #{$breakpoint})";
+
+    @media #{$queries} {
+        @content;
+    }
+}

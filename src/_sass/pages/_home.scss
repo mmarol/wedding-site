@@ -1,0 +1,37 @@
+@use "../abstracts/variables";
+@use "../abstracts/type-styles";
+@use "../abstracts/mixins";
+
+.intro {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: var(--s-xxl);
+}
+
+.intro__info {
+    flex-basis: 100%;
+    @include mixins.respond-above(variables.$break-l) {
+        flex-basis: 50%;
+    }
+}
+
+.intro__description {
+    margin-top: var(--s-m);
+    flex-basis: 100%;
+    @include mixins.respond-above(variables.$break-l) {
+        flex-basis: 50%;
+    }
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: var(--s-xxl);
+}
+
+.gallery__image {
+    flex-basis: calc(50% - var(--s-l));
+    width: calc(50% - var(--s-l));
+    margin-right: var(--s-l);
+}
