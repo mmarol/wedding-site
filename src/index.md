@@ -1,7 +1,7 @@
 ---
 title: "Holly & Jay"
 layout: base
-eventDate: "Jan 4, 2020"
+eventDate: "Jan 4, 2022"
 location: "Bangalore, India"
 intro: "We’re getting married! Again! If you think you can make it, please RSVP below, or send us an email at ___"
 headerImageA: "/assets/images/Illustration-b-02.png"
@@ -21,7 +21,7 @@ galleryImageB: "/assets/images/gallery-b.png"
     <p class="intro__description page__description">{{ intro | safe }}</p>
 </section>
 <section class="form__container">
-    <form action="" method="POST" class="form">
+    <form action="" method="POST" class="form" id="wedding-form">
         <div class="form__item">
             <label for="name">Name </label>
             <input type="text" name="name" id="name" required>
@@ -32,32 +32,33 @@ galleryImageB: "/assets/images/gallery-b.png"
         </div>
         <div class="form__item">
             <label for="mehndi">Mehndi RSVP<br><span>Monday, Jan 2</span></label>
-            <select name="rsvp-options" id="rsvp-options">
+            <select name="mehndi-options" id="mehndi-options">
                 <option value="yes">Yes, I'll be attending</option>
                 <option value="no">No, I can't make it</option>
             </select>
         </div>
         <div class="form__item">
-            <label for="mehndi">Ceremony RSVP<br><span>Wednesday, Jan 4</span></label>
-            <select name="rsvp-options" id="rsvp-options">
+            <label for="ceremony">Ceremony RSVP<br><span>Wednesday, Jan 4</span></label>
+            <select name="ceremony-options" id="ceremony-options">
                 <option value="yes">Yes, I'll be attending</option>
                 <option value="no">No, I can't make it</option>
             </select>
         </div>
         <div class="form__item">
-            <label for="mehndi">Reception RSVP<br><span>Wednesday, Jan 4</span></label>
-            <select name="rsvp-options" id="rsvp-options">
+            <label for="reception">Reception RSVP<br><span>Wednesday, Jan 4</span></label>
+            <select name="reception-options" id="reception-options">
                 <option value="yes">Yes, I'll be attending</option>
                 <option value="no">No, I can't make it</option>
             </select>
         </div>
         <div class="form__item">
-            <label for="mehndi">Dietary restrictions</label>
-            <input type="text" id="name" name="name" minlength="4" maxlength="8" size="10">
+            <label for="dietary-restrictions">Dietary restrictions</label>
+            <input type="text" id="dietary-restrictions" name="dietary-restrictions" minlength="4" maxlength="8"
+                size="10">
         </div>
         <div class="form__item">
-            <label for="mehndi">Additional comments</label>
-            <textarea id="story" name="story" rows="5" cols="33"></textarea>
+            <label for="comments">Additional comments</label>
+            <textarea id="comments" name="comments" rows="5" cols="33"></textarea>
         </div>
         <div class="form__item">
             <input type="submit" value="RSVP!">
