@@ -5,18 +5,45 @@
 .form__container {
 }
 
+.form__title {
+    @extend %form-title;
+    margin-top: 0;
+    margin-bottom: var(--s-m);
+}
+
+.form__description {
+    margin-bottom: var(--s-xl);
+
+    strong {
+        font-family: var(--f-text-bold);
+    }
+}
+
+.form {
+    margin-top: var(--s-xl);
+}
+
+.form-success {
+    display: none;
+}
+
 .form__item {
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: var(--s-l);
+    margin-bottom: var(--s-xl);
     @extend %form-title;
 
     label {
         display: flex;
         flex-wrap: wrap;
         align-items: center;
-        height: var(--s-xxl);
+        // height: var(--s-xxl);
         flex-basis: 100%;
+        margin-bottom: var(--s-m);
+
+        @include mixins.respond-above(variables.$break-m) {
+            margin-bottom: 0;
+        }
 
         span {
             @extend %body;
@@ -46,9 +73,34 @@
             cursor: pointer;
             background-color: var(--c-graphic);
             color: var(--c-background);
+            text-transform: uppercase;
+            height: auto;
 
             &:hover {
                 background-color: var(--c-text);
+                color: var(--c-background);
+            }
+        }
+
+        &[type="radio"] {
+            appearance: none;
+            display: inline-block;
+            width: var(--s-xl);
+            height: var(--s-xl);
+            flex-basis: var(--s-xl);
+            padding: var(--s-s);
+            background-clip: content-box;
+            border: 2px solid var(--c-text);
+            border-radius: 50%;
+            margin-right: 1rem;
+            flex-shrink: 0;
+            cursor: pointer;
+
+            &:checked {
+                background-color: var(--c-graphic);
+            }
+
+            @include mixins.respond-above(variables.$break-s) {
             }
         }
     }
@@ -104,11 +156,31 @@
             margin-left: 40%;
             transition: all 0.2s ease;
             cursor: pointer;
-
-            &:hover {
-                background-color: var(--c-graphic);
-                color: var(--c-background);
-            }
         }
+
+        input[type="radio"] {
+            // width: 100%;
+            // flex-basis: 100%;
+        }
+    }
+}
+
+.form__radio {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: var(--s-l);
+
+    @include mixins.respond-above(variables.$break-m) {
+        margin-left: 40%;
+        flex-basis: 60%;
+        width: 60%;
+    }
+
+    label {
+        // flex-basis: 40%;
+        // width: 40%;
+        flex-grow: 1;
+        margin-bottom: 0;
     }
 }

@@ -10,39 +10,59 @@
 
 .page__header {
     display: flex;
+    flex-direction: column;
+    align-items: center;
     position: relative;
     margin: var(--s-xl) 0 var(--s-xxl) 0;
+
+    @include mixins.respond-above(variables.$break-s) {
+        margin: var(--s-xl) 0 var(--s-xxl) 0;
+    }
+
+    @include mixins.respond-above(variables.$break-m) {
+        margin: var(--s-xl) 0 var(--s-xxl) 0;
+    }
+
+    @include mixins.respond-above(variables.$break-l) {
+        margin: var(--s-xl) 0 var(--s-xxl) 0;
+    }
 }
 
 .header__image {
-    flex-basis: 50%;
-    width: 50%;
     margin: 0;
     mix-blend-mode: darken;
     position: absolute;
 
     &.left {
-        top: -15%;
-        left: 2%;
+        flex-basis: 40%;
+        width: 40%;
+        top: 0;
+        right: -5%;
     }
 
     &.right {
-        top: 55%;
-        right: 2%;
+        flex-basis: 55%;
+        width: 55%;
+        bottom: 0;
+        left: -5%;
     }
 
     @include mixins.respond-above(variables.$break-s) {
-        flex-basis: 30%;
-        width: 30%;
-
         &.left {
+            flex-basis: 25%;
+            width: 25%;
             top: -15%;
-            left: 2%;
+            left: -7%;
+            right: initial;
         }
 
         &.right {
+            flex-basis: 30%;
+            width: 30%;
             top: 50%;
-            right: 2%;
+            right: -10%;
+            bottom: initial;
+            left: initial;
         }
     }
 
@@ -51,13 +71,17 @@
         width: 20%;
 
         &.left {
+            flex-basis: 20%;
+            width: 20%;
             top: 0;
             left: 2%;
         }
 
         &.right {
+            flex-basis: 23%;
+            width: 23%;
             top: 40%;
-            right: 2%;
+            right: 0;
         }
     }
 
@@ -72,11 +96,43 @@
     width: 100%;
     transform: rotate(-5deg);
     mix-blend-mode: darken;
-    margin: var(--s-xxl) 0;
+    margin: var(--s-m) 0;
 
     @include mixins.respond-above(variables.$break-s) {
         margin: var(--s-xl) 0;
     }
+}
+
+.header__title--desktop {
+    display: none;
+
+    @include mixins.respond-above(variables.$break-s) {
+        display: block;
+    }
+}
+
+.header__title--mobile {
+    display: flex;
+    flex-wrap: wrap;
+
+    @include mixins.respond-above(variables.$break-s) {
+        display: none;
+    }
+}
+
+.header__title--one {
+    flex-basis: 100%;
+    text-align: left;
+}
+
+.header__title--two {
+    flex-basis: 100%;
+    margin-left: 10vw;
+}
+
+.header__title--three {
+    flex-basis: 100%;
+    text-align: right;
 }
 
 .page__title {

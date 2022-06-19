@@ -15,42 +15,42 @@ $break-l: 1024px;
 
     --t-s: 1rem;
     --t-m: 1.3rem;
-    --t-l: 1.8rem;
-    --t-xl: 2rem;
+    --t-l: 2rem;
+    --t-xl: 3rem;
 
-    --s-s: 0.5rem;
-    --s-m: 1rem;
-    --s-l: 2rem;
-    --s-xl: 3rem;
-    --s-xxl: 6rem;
-    --s-xxxl: 10rem;
+    --s-s: 0.25rem;
+    --s-m: 0.5rem;
+    --s-l: 1rem;
+    --s-xl: 2rem;
+    --s-xxl: 3rem;
+    --s-xxxl: 4rem;
 
     @include mixins.respond-above($break-s) {
         --t-s: 1rem;
         --t-m: 1.5rem;
-        --t-l: 2rem;
-        --t-xl: 4rem;
+        --t-l: 2.25rem;
+        --t-xl: 3.5rem;
 
-        --s-s: 0.5rem;
-        --s-m: 1rem;
-        --s-l: 2rem;
-        --s-xl: 3rem;
-        --s-xxl: 6rem;
-        --s-xxxl: 10rem;
+        --s-s: 0.25rem;
+        --s-m: 0.75rem;
+        --s-l: 1.5rem;
+        --s-xl: 2.5rem;
+        --s-xxl: 4rem;
+        --s-xxxl: 6rem;
     }
 
     @include mixins.respond-above($break-m) {
         --t-s: 1rem;
-        --t-m: 2rem;
-        --t-l: 3rem;
-        --t-xl: 5rem;
+        --t-m: 1.75rem;
+        --t-l: 2.5rem;
+        --t-xl: 4rem;
 
         --s-s: 0.5rem;
         --s-m: 1rem;
-        --s-l: 2rem;
-        --s-xl: 3rem;
-        --s-xxl: 6rem;
-        --s-xxxl: 10rem;
+        --s-l: 1.75rem;
+        --s-xl: 2.75rem;
+        --s-xxl: 5rem;
+        --s-xxxl: 8rem;
     }
 
     @include mixins.respond-above($break-l) {
