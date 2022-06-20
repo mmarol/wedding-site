@@ -889,6 +889,9 @@ body a:active, .page__description a:active, .form__item label span a:active, .fo
   flex-wrap: wrap;
   margin-bottom: var(--s-xl);
 }
+.form__item.hidden {
+  display: none;
+}
 .form__item label {
   display: flex;
   flex-wrap: wrap;

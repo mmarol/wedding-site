@@ -1,3 +1,14 @@
+let attending = $("input:radio[name=attending]");
+let conditionalField = $(".form__conditional");
+
+attending.on("change", function () {
+	if (this.value == "Yes" || this.value == "Maybe") {
+		conditionalField.removeClass("hidden");
+	} else {
+		conditionalField.addClass("hidden");
+	}
+});
+
 window.addEventListener("load", function () {
 	const form = document.getElementById("wedding-form");
 	form.addEventListener("submit", function (e) {
