@@ -33,6 +33,10 @@
     margin-bottom: var(--s-xl);
     @extend %form-title;
 
+    &.hidden {
+        display: none;
+    }
+
     label {
         display: flex;
         flex-wrap: wrap;
