@@ -19,9 +19,6 @@ window.addEventListener("load", function () {
 			method: "POST",
 			body: data,
 		}).then(() => {
-			alert(
-				"Thank you for filling out that form! If you have questions or if your plans change, you can email us at "
-			);
 			$(".form").hide();
 			$(".form-success").show();
 		});
