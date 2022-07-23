@@ -1,7 +1,7 @@
 ---
 title: "Holly & Jay"
 layout: base
-eventDate: "Jan 4, 2022"
+eventDate: "Jan 4, 2023"
 location: "Bangalore, India"
 headerImageA: "/assets/images/Illustration-b-02.png"
 headerImageB: "/assets/images/Illustration-b-01.png"
