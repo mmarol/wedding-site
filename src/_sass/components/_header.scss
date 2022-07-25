@@ -1,0 +1,59 @@
+@use "../abstracts/variables";
+@use "../abstracts/type-styles";
+@use "../abstracts/mixins";
+
+.page__header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    position: relative;
+    margin: var(--s-xxl) 0;
+    flex-basis: 100%;
+}
+
+.header__image {
+    margin: 0;
+    mix-blend-mode: darken;
+    flex-basis: 50%;
+
+    &.left {
+        order: 1;
+    }
+
+    &.right {
+        order: 2;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    @include mixins.respond-above(variables.$break-m) {
+        flex-basis: 20%;
+
+        &.left {
+            order: 1;
+        }
+
+        &.right {
+            order: 3;
+        }
+    }
+}
+
+.header__title {
+    @extend %header;
+    font-size: 20vw;
+    flex-basis: 100%;
+    width: 60%;
+    transform: rotate(-5deg);
+    mix-blend-mode: darken;
+    margin: var(--s-m) 0;
+    order: 3;
+
+    @include mixins.respond-above(variables.$break-m) {
+        flex-basis: 60%;
+        font-size: 12vw;
+        order: 2;
+    }
+}

@@ -1,22 +1,50 @@
 @use "../abstracts/variables";
 @use "../abstracts/mixins";
 
+%nav {
+    font-family: var(--f-text);
+    font-display: swap;
+    font-style: normal;
+    font-weight: normal;
+    font-size: var(--t-s);
+    line-height: 1.3;
+    margin: 0;
+}
+
 %header {
     font-family: var(--f-display);
     font-display: swap;
     font-style: normal;
     font-weight: normal;
-    font-size: 20vw;
     text-align: center;
     line-height: 1;
+}
 
-    @include mixins.respond-above(variables.$break-s) {
-        font-size: 15vw;
-    }
+%page-nav {
+    font-family: var(--f-display);
+    font-display: swap;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    font-size: var(--t-xxl);
+}
 
-    @include mixins.respond-above(variables.$break-m) {
-        font-size: 15vw;
-    }
+%title {
+    font-family: var(--f-text);
+    font-display: swap;
+    font-style: normal;
+    font-weight: normal;
+    font-size: var(--t-xl);
+    line-height: 1.2;
+}
+
+%subtitle {
+    font-family: var(--f-text);
+    font-display: swap;
+    font-style: normal;
+    font-weight: normal;
+    font-size: var(--t-l);
+    line-height: 1.2;
 }
 
 %body {
@@ -43,23 +71,7 @@
 
 %body-bold {
     font-family: var(--f-text-bold);
-}
-
-%body-large {
-    font-family: var(--f-text);
     font-display: swap;
     font-style: normal;
     font-weight: normal;
-    font-size: var(--t-xl);
-    line-height: 1.2;
-    margin: 0;
-}
-
-%form-title {
-    font-family: var(--f-text);
-    font-display: swap;
-    font-style: normal;
-    font-weight: normal;
-    font-size: var(--t-l);
-    line-height: 1.2;
 }

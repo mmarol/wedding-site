@@ -356,6 +356,7 @@ The arguments can be any of the variable key names in ../abstracts/_responsize-s
   --t-m: 1.3rem;
   --t-l: 2rem;
   --t-xl: 3rem;
+  --t-xxl: 3rem;
   --s-s: 0.25rem;
   --s-m: 0.5rem;
   --s-l: 1rem;
@@ -366,86 +367,75 @@ The arguments can be any of the variable key names in ../abstracts/_responsize-s
 
 @media screen and (min-width: 512px) {
   :root {
-    --t-s: 1rem;
+    --t-s: 1.25rem;
     --t-m: 1.5rem;
     --t-l: 2.25rem;
     --t-xl: 3.5rem;
+    --t-xxl: 4rem;
     --s-s: 0.25rem;
     --s-m: 0.75rem;
     --s-l: 1.5rem;
     --s-xl: 2.5rem;
-    --s-xxl: 4rem;
+    --s-xxl: 3.5rem;
     --s-xxxl: 6rem;
   }
 }
 @media screen and (min-width: 768px) {
   :root {
-    --t-s: 1rem;
+    --t-s: 1.35rem;
     --t-m: 1.75rem;
     --t-l: 2.5rem;
     --t-xl: 4rem;
+    --t-xxl: 5rem;
     --s-s: 0.5rem;
     --s-m: 1rem;
     --s-l: 1.75rem;
     --s-xl: 2.75rem;
-    --s-xxl: 5rem;
+    --s-xxl: 4rem;
     --s-xxxl: 8rem;
   }
 }
 @media screen and (min-width: 1024px) {
   :root {
-    --t-s: 1rem;
+    --t-s: 1.5rem;
     --t-m: 2rem;
     --t-l: 3rem;
-    --t-xl: 5rem;
+    --t-xl: 4rem;
+    --t-xxl: 7rem;
     --s-s: 0.5rem;
     --s-m: 1rem;
     --s-l: 2rem;
     --s-xl: 3rem;
-    --s-xxl: 6rem;
+    --s-xxl: 5rem;
     --s-xxxl: 10rem;
   }
 }
+.gallery__caption, .nav__item a {
+  font-family: var(--f-text);
+  font-display: swap;
+  font-style: normal;
+  font-weight: normal;
+  font-size: var(--t-s);
+  line-height: 1.3;
+  margin: 0;
+}
+
 .header__title {
   font-family: var(--f-display);
   font-display: swap;
   font-style: normal;
   font-weight: normal;
-  font-size: 20vw;
   text-align: center;
   line-height: 1;
 }
 
-@media screen and (min-width: 512px) {
-  .header__title {
-    font-size: 15vw;
-  }
-}
-@media screen and (min-width: 768px) {
-  .header__title {
-    font-size: 15vw;
-  }
-}
-.form__item textarea, .form__item label span, .page__description, body {
-  font-family: var(--f-text);
+.page__link {
+  font-family: var(--f-display);
   font-display: swap;
   font-style: normal;
   font-weight: normal;
-  font-size: var(--t-m);
-  line-height: 1.3;
-  margin: 0;
-}
-
-.form__item textarea a, .form__item label span a, .page__description a, body a {
-  color: var(--c-graphic);
-}
-
-.form__item textarea a:hover, .form__item label span a:hover, .page__description a:hover, body a:hover {
-  color: var(--c-text);
-}
-
-.form__item textarea a:active, .form__item label span a:active, .page__description a:active, body a:active {
-  color: var(--c-graphic);
+  line-height: 1;
+  font-size: var(--t-xxl);
 }
 
 .page__title {
@@ -455,16 +445,44 @@ The arguments can be any of the variable key names in ../abstracts/_responsize-s
   font-weight: normal;
   font-size: var(--t-xl);
   line-height: 1.2;
-  margin: 0;
 }
 
-.form__item, .form__title {
+.page__description-title, .page__subtitle {
   font-family: var(--f-text);
   font-display: swap;
   font-style: normal;
   font-weight: normal;
   font-size: var(--t-l);
   line-height: 1.2;
+}
+
+.intro__contact, .page__description, body {
+  font-family: var(--f-text);
+  font-display: swap;
+  font-style: normal;
+  font-weight: normal;
+  font-size: var(--t-m);
+  line-height: 1.3;
+  margin: 0;
+}
+
+.intro__contact a, .page__description a, body a {
+  color: var(--c-graphic);
+}
+
+.intro__contact a:hover, .page__description a:hover, body a:hover {
+  color: var(--c-text);
+}
+
+.intro__contact a:active, .page__description a:active, body a:active {
+  color: var(--c-graphic);
+}
+
+strong {
+  font-family: var(--f-text-bold);
+  font-display: swap;
+  font-style: normal;
+  font-weight: normal;
 }
 
 body {
@@ -491,6 +509,7 @@ The arguments can be any of the variable key names in ../abstracts/_responsize-s
   --t-m: 1.3rem;
   --t-l: 2rem;
   --t-xl: 3rem;
+  --t-xxl: 3rem;
   --s-s: 0.25rem;
   --s-m: 0.5rem;
   --s-l: 1rem;
@@ -501,86 +520,75 @@ The arguments can be any of the variable key names in ../abstracts/_responsize-s
 
 @media screen and (min-width: 512px) {
   :root {
-    --t-s: 1rem;
+    --t-s: 1.25rem;
     --t-m: 1.5rem;
     --t-l: 2.25rem;
     --t-xl: 3.5rem;
+    --t-xxl: 4rem;
     --s-s: 0.25rem;
     --s-m: 0.75rem;
     --s-l: 1.5rem;
     --s-xl: 2.5rem;
-    --s-xxl: 4rem;
+    --s-xxl: 3.5rem;
     --s-xxxl: 6rem;
   }
 }
 @media screen and (min-width: 768px) {
   :root {
-    --t-s: 1rem;
+    --t-s: 1.35rem;
     --t-m: 1.75rem;
     --t-l: 2.5rem;
     --t-xl: 4rem;
+    --t-xxl: 5rem;
     --s-s: 0.5rem;
     --s-m: 1rem;
     --s-l: 1.75rem;
     --s-xl: 2.75rem;
-    --s-xxl: 5rem;
+    --s-xxl: 4rem;
     --s-xxxl: 8rem;
   }
 }
 @media screen and (min-width: 1024px) {
   :root {
-    --t-s: 1rem;
+    --t-s: 1.5rem;
     --t-m: 2rem;
     --t-l: 3rem;
-    --t-xl: 5rem;
+    --t-xl: 4rem;
+    --t-xxl: 7rem;
     --s-s: 0.5rem;
     --s-m: 1rem;
     --s-l: 2rem;
     --s-xl: 3rem;
-    --s-xxl: 6rem;
+    --s-xxl: 5rem;
     --s-xxxl: 10rem;
   }
 }
+.gallery__caption, .nav__item a {
+  font-family: var(--f-text);
+  font-display: swap;
+  font-style: normal;
+  font-weight: normal;
+  font-size: var(--t-s);
+  line-height: 1.3;
+  margin: 0;
+}
+
 .header__title {
   font-family: var(--f-display);
   font-display: swap;
   font-style: normal;
   font-weight: normal;
-  font-size: 20vw;
   text-align: center;
   line-height: 1;
 }
 
-@media screen and (min-width: 512px) {
-  .header__title {
-    font-size: 15vw;
-  }
-}
-@media screen and (min-width: 768px) {
-  .header__title {
-    font-size: 15vw;
-  }
-}
-.form__item textarea, .form__item label span, body, .page__description {
-  font-family: var(--f-text);
+.page__link {
+  font-family: var(--f-display);
   font-display: swap;
   font-style: normal;
   font-weight: normal;
-  font-size: var(--t-m);
-  line-height: 1.3;
-  margin: 0;
-}
-
-.form__item textarea a, .form__item label span a, body a, .page__description a {
-  color: var(--c-graphic);
-}
-
-.form__item textarea a:hover, .form__item label span a:hover, body a:hover, .page__description a:hover {
-  color: var(--c-text);
-}
-
-.form__item textarea a:active, .form__item label span a:active, body a:active, .page__description a:active {
-  color: var(--c-graphic);
+  line-height: 1;
+  font-size: var(--t-xxl);
 }
 
 .page__title {
@@ -590,10 +598,9 @@ The arguments can be any of the variable key names in ../abstracts/_responsize-s
   font-weight: normal;
   font-size: var(--t-xl);
   line-height: 1.2;
-  margin: 0;
 }
 
-.form__item, .form__title {
+.page__description-title, .page__subtitle {
   font-family: var(--f-text);
   font-display: swap;
   font-style: normal;
@@ -602,136 +609,479 @@ The arguments can be any of the variable key names in ../abstracts/_responsize-s
   line-height: 1.2;
 }
 
+.intro__contact, .page__description, body {
+  font-family: var(--f-text);
+  font-display: swap;
+  font-style: normal;
+  font-weight: normal;
+  font-size: var(--t-m);
+  line-height: 1.3;
+  margin: 0;
+}
+
+.intro__contact a, .page__description a, body a {
+  color: var(--c-graphic);
+}
+
+.intro__contact a:hover, .page__description a:hover, body a:hover {
+  color: var(--c-text);
+}
+
+.intro__contact a:active, .page__description a:active, body a:active {
+  color: var(--c-graphic);
+}
+
+strong {
+  font-family: var(--f-text-bold);
+  font-display: swap;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+.nav__items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  box-sizing: border-box;
+  width: 100%;
+  margin: 0;
+  padding: var(--s-m) var(--s-xl) var(--s-l) var(--s-xl);
+  list-style: none;
+  background: var(--c-background);
+  background: linear-gradient(to bottom, var(--c-background) 80%, rgba(251, 246, 239, 0));
+}
+
+.nav__item {
+  line-height: 0;
+}
+.nav__item a {
+  color: var(--c-graphic);
+}
+.nav__item.active a {
+  color: var(--c-text);
+  text-decoration: none;
+}
+
+/* --------------------------------------------------------
+RESPONSIVE QUERY MIXIN
+Usage Example: 
+    @include mixins.respond-above(s-l) {
+        // color: red;
+    };
+The arguments can be any of the variable key names in ../abstracts/_responsize-sizes.scss.
+-------------------------------------------------------- */
+:root {
+  --c-background: #fbf6ef;
+  --c-text: #46844f;
+  --c-graphic: #ab5392;
+  --f-display: "Daleys Gothic Bd", monospace, sans-serif;
+  --f-text: "Quiosco Reg", serif;
+  --f-text-bold: "Quiosco Bd", serif;
+  --t-s: 1rem;
+  --t-m: 1.3rem;
+  --t-l: 2rem;
+  --t-xl: 3rem;
+  --t-xxl: 3rem;
+  --s-s: 0.25rem;
+  --s-m: 0.5rem;
+  --s-l: 1rem;
+  --s-xl: 2rem;
+  --s-xxl: 3rem;
+  --s-xxxl: 4rem;
+}
+
+@media screen and (min-width: 512px) {
+  :root {
+    --t-s: 1.25rem;
+    --t-m: 1.5rem;
+    --t-l: 2.25rem;
+    --t-xl: 3.5rem;
+    --t-xxl: 4rem;
+    --s-s: 0.25rem;
+    --s-m: 0.75rem;
+    --s-l: 1.5rem;
+    --s-xl: 2.5rem;
+    --s-xxl: 3.5rem;
+    --s-xxxl: 6rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  :root {
+    --t-s: 1.35rem;
+    --t-m: 1.75rem;
+    --t-l: 2.5rem;
+    --t-xl: 4rem;
+    --t-xxl: 5rem;
+    --s-s: 0.5rem;
+    --s-m: 1rem;
+    --s-l: 1.75rem;
+    --s-xl: 2.75rem;
+    --s-xxl: 4rem;
+    --s-xxxl: 8rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  :root {
+    --t-s: 1.5rem;
+    --t-m: 2rem;
+    --t-l: 3rem;
+    --t-xl: 4rem;
+    --t-xxl: 7rem;
+    --s-s: 0.5rem;
+    --s-m: 1rem;
+    --s-l: 2rem;
+    --s-xl: 3rem;
+    --s-xxl: 5rem;
+    --s-xxxl: 10rem;
+  }
+}
+.gallery__caption, .nav__item a {
+  font-family: var(--f-text);
+  font-display: swap;
+  font-style: normal;
+  font-weight: normal;
+  font-size: var(--t-s);
+  line-height: 1.3;
+  margin: 0;
+}
+
+.header__title {
+  font-family: var(--f-display);
+  font-display: swap;
+  font-style: normal;
+  font-weight: normal;
+  text-align: center;
+  line-height: 1;
+}
+
+.page__link {
+  font-family: var(--f-display);
+  font-display: swap;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  font-size: var(--t-xxl);
+}
+
+.page__title {
+  font-family: var(--f-text);
+  font-display: swap;
+  font-style: normal;
+  font-weight: normal;
+  font-size: var(--t-xl);
+  line-height: 1.2;
+}
+
+.page__subtitle, .page__description-title {
+  font-family: var(--f-text);
+  font-display: swap;
+  font-style: normal;
+  font-weight: normal;
+  font-size: var(--t-l);
+  line-height: 1.2;
+}
+
+.intro__contact, body, .page__description {
+  font-family: var(--f-text);
+  font-display: swap;
+  font-style: normal;
+  font-weight: normal;
+  font-size: var(--t-m);
+  line-height: 1.3;
+  margin: 0;
+}
+
+.intro__contact a, body a, .page__description a {
+  color: var(--c-graphic);
+}
+
+.intro__contact a:hover, body a:hover, .page__description a:hover {
+  color: var(--c-text);
+}
+
+.intro__contact a:active, body a:active, .page__description a:active {
+  color: var(--c-graphic);
+}
+
+strong {
+  font-family: var(--f-text-bold);
+  font-display: swap;
+  font-style: normal;
+  font-weight: normal;
+}
+
 .page__content {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  align-content: flex-start;
   margin: 0 var(--s-xl);
+}
+
+.page__row {
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: var(--s-xxl);
+  margin-bottom: var(--s-xxl);
+  border-bottom: 1px solid var(--c-graphic);
+}
+
+.page__column {
+  flex-basis: 100%;
+}
+@media screen and (min-width: 1024px) {
+  .page__column {
+    flex-basis: calc(50% - var(--s-m));
+    margin-right: var(--s-m);
+  }
+}
+
+.page__title {
+  color: var(--c-graphic);
+  margin: 0 0 var(--s-m) 0;
+}
+
+.page__subtitle {
+  color: var(--c-graphic);
+  margin: 0;
+  margin-bottom: var(--s-l);
+}
+
+.page__description-title {
+  color: var(--c-text);
+  margin: 0;
+}
+
+.page__description + .page__description {
+  margin-top: var(--s-m);
+}
+
+.page__buttons {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: var(--s-m);
+}
+
+.page__button {
+  padding: var(--s-m);
+  margin-right: var(--s-m);
+  border: 1px solid var(--c-graphic);
+  color: var(--c-graphic);
+  background-color: var(--c-background);
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+.page__button:hover {
+  color: var(--c-background);
+  background-color: var(--c-graphic);
+}
+
+/* --------------------------------------------------------
+RESPONSIVE QUERY MIXIN
+Usage Example: 
+    @include mixins.respond-above(s-l) {
+        // color: red;
+    };
+The arguments can be any of the variable key names in ../abstracts/_responsize-sizes.scss.
+-------------------------------------------------------- */
+:root {
+  --c-background: #fbf6ef;
+  --c-text: #46844f;
+  --c-graphic: #ab5392;
+  --f-display: "Daleys Gothic Bd", monospace, sans-serif;
+  --f-text: "Quiosco Reg", serif;
+  --f-text-bold: "Quiosco Bd", serif;
+  --t-s: 1rem;
+  --t-m: 1.3rem;
+  --t-l: 2rem;
+  --t-xl: 3rem;
+  --t-xxl: 3rem;
+  --s-s: 0.25rem;
+  --s-m: 0.5rem;
+  --s-l: 1rem;
+  --s-xl: 2rem;
+  --s-xxl: 3rem;
+  --s-xxxl: 4rem;
+}
+
+@media screen and (min-width: 512px) {
+  :root {
+    --t-s: 1.25rem;
+    --t-m: 1.5rem;
+    --t-l: 2.25rem;
+    --t-xl: 3.5rem;
+    --t-xxl: 4rem;
+    --s-s: 0.25rem;
+    --s-m: 0.75rem;
+    --s-l: 1.5rem;
+    --s-xl: 2.5rem;
+    --s-xxl: 3.5rem;
+    --s-xxxl: 6rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  :root {
+    --t-s: 1.35rem;
+    --t-m: 1.75rem;
+    --t-l: 2.5rem;
+    --t-xl: 4rem;
+    --t-xxl: 5rem;
+    --s-s: 0.5rem;
+    --s-m: 1rem;
+    --s-l: 1.75rem;
+    --s-xl: 2.75rem;
+    --s-xxl: 4rem;
+    --s-xxxl: 8rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  :root {
+    --t-s: 1.5rem;
+    --t-m: 2rem;
+    --t-l: 3rem;
+    --t-xl: 4rem;
+    --t-xxl: 7rem;
+    --s-s: 0.5rem;
+    --s-m: 1rem;
+    --s-l: 2rem;
+    --s-xl: 3rem;
+    --s-xxl: 5rem;
+    --s-xxxl: 10rem;
+  }
+}
+.gallery__caption, .nav__item a {
+  font-family: var(--f-text);
+  font-display: swap;
+  font-style: normal;
+  font-weight: normal;
+  font-size: var(--t-s);
+  line-height: 1.3;
+  margin: 0;
+}
+
+.header__title {
+  font-family: var(--f-display);
+  font-display: swap;
+  font-style: normal;
+  font-weight: normal;
+  text-align: center;
+  line-height: 1;
+}
+
+.page__link {
+  font-family: var(--f-display);
+  font-display: swap;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  font-size: var(--t-xxl);
+}
+
+.page__title {
+  font-family: var(--f-text);
+  font-display: swap;
+  font-style: normal;
+  font-weight: normal;
+  font-size: var(--t-xl);
+  line-height: 1.2;
+}
+
+.page__subtitle, .page__description-title {
+  font-family: var(--f-text);
+  font-display: swap;
+  font-style: normal;
+  font-weight: normal;
+  font-size: var(--t-l);
+  line-height: 1.2;
+}
+
+.intro__contact, body, .page__description {
+  font-family: var(--f-text);
+  font-display: swap;
+  font-style: normal;
+  font-weight: normal;
+  font-size: var(--t-m);
+  line-height: 1.3;
+  margin: 0;
+}
+
+.intro__contact a, body a, .page__description a {
+  color: var(--c-graphic);
+}
+
+.intro__contact a:hover, body a:hover, .page__description a:hover {
+  color: var(--c-text);
+}
+
+.intro__contact a:active, body a:active, .page__description a:active {
+  color: var(--c-graphic);
+}
+
+strong {
+  font-family: var(--f-text-bold);
+  font-display: swap;
+  font-style: normal;
+  font-weight: normal;
 }
 
 .page__header {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   align-items: center;
   position: relative;
-  margin: var(--s-xl) 0 var(--s-xxl) 0;
-}
-@media screen and (min-width: 512px) {
-  .page__header {
-    margin: var(--s-xl) 0 var(--s-xxl) 0;
-  }
-}
-@media screen and (min-width: 768px) {
-  .page__header {
-    margin: var(--s-xl) 0 var(--s-xxl) 0;
-  }
-}
-@media screen and (min-width: 1024px) {
-  .page__header {
-    margin: var(--s-xl) 0 var(--s-xxl) 0;
-  }
+  margin: var(--s-xxl) 0;
+  flex-basis: 100%;
 }
 
 .header__image {
   margin: 0;
   mix-blend-mode: darken;
-  position: absolute;
+  flex-basis: 50%;
 }
 .header__image.left {
-  flex-basis: 40%;
-  width: 40%;
-  top: 0;
-  right: -5%;
+  order: 1;
 }
 .header__image.right {
-  flex-basis: 55%;
-  width: 55%;
-  bottom: 0;
-  left: -5%;
-}
-@media screen and (min-width: 512px) {
-  .header__image.left {
-    flex-basis: 25%;
-    width: 25%;
-    top: -15%;
-    left: -7%;
-    right: initial;
-  }
-  .header__image.right {
-    flex-basis: 30%;
-    width: 30%;
-    top: 50%;
-    right: -10%;
-    bottom: initial;
-    left: initial;
-  }
-}
-@media screen and (min-width: 768px) {
-  .header__image {
-    flex-basis: 20%;
-    width: 20%;
-  }
-  .header__image.left {
-    flex-basis: 20%;
-    width: 20%;
-    top: 0;
-    left: 2%;
-  }
-  .header__image.right {
-    flex-basis: 23%;
-    width: 23%;
-    top: 40%;
-    right: 0;
-  }
+  order: 2;
 }
 .header__image img {
   width: 100%;
 }
+@media screen and (min-width: 768px) {
+  .header__image {
+    flex-basis: 20%;
+  }
+  .header__image.left {
+    order: 1;
+  }
+  .header__image.right {
+    order: 3;
+  }
+}
 
 .header__title {
+  font-size: 20vw;
   flex-basis: 100%;
-  width: 100%;
+  width: 60%;
   transform: rotate(-5deg);
   mix-blend-mode: darken;
   margin: var(--s-m) 0;
+  order: 3;
 }
-@media screen and (min-width: 512px) {
+@media screen and (min-width: 768px) {
   .header__title {
-    margin: var(--s-xl) 0;
+    flex-basis: 60%;
+    font-size: 12vw;
+    order: 2;
   }
-}
-
-.header__title--desktop {
-  display: none;
-}
-@media screen and (min-width: 512px) {
-  .header__title--desktop {
-    display: block;
-  }
-}
-
-.header__title--mobile {
-  display: flex;
-  flex-wrap: wrap;
-}
-@media screen and (min-width: 512px) {
-  .header__title--mobile {
-    display: none;
-  }
-}
-
-.header__title--one {
-  flex-basis: 100%;
-  text-align: left;
-}
-
-.header__title--two {
-  flex-basis: 100%;
-  margin-left: 10vw;
-}
-
-.header__title--three {
-  flex-basis: 100%;
-  text-align: right;
 }
 
 /* --------------------------------------------------------
@@ -753,6 +1103,7 @@ The arguments can be any of the variable key names in ../abstracts/_responsize-s
   --t-m: 1.3rem;
   --t-l: 2rem;
   --t-xl: 3rem;
+  --t-xxl: 3rem;
   --s-s: 0.25rem;
   --s-m: 0.5rem;
   --s-l: 1rem;
@@ -763,86 +1114,75 @@ The arguments can be any of the variable key names in ../abstracts/_responsize-s
 
 @media screen and (min-width: 512px) {
   :root {
-    --t-s: 1rem;
+    --t-s: 1.25rem;
     --t-m: 1.5rem;
     --t-l: 2.25rem;
     --t-xl: 3.5rem;
+    --t-xxl: 4rem;
     --s-s: 0.25rem;
     --s-m: 0.75rem;
     --s-l: 1.5rem;
     --s-xl: 2.5rem;
-    --s-xxl: 4rem;
+    --s-xxl: 3.5rem;
     --s-xxxl: 6rem;
   }
 }
 @media screen and (min-width: 768px) {
   :root {
-    --t-s: 1rem;
+    --t-s: 1.35rem;
     --t-m: 1.75rem;
     --t-l: 2.5rem;
     --t-xl: 4rem;
+    --t-xxl: 5rem;
     --s-s: 0.5rem;
     --s-m: 1rem;
     --s-l: 1.75rem;
     --s-xl: 2.75rem;
-    --s-xxl: 5rem;
+    --s-xxl: 4rem;
     --s-xxxl: 8rem;
   }
 }
 @media screen and (min-width: 1024px) {
   :root {
-    --t-s: 1rem;
+    --t-s: 1.5rem;
     --t-m: 2rem;
     --t-l: 3rem;
-    --t-xl: 5rem;
+    --t-xl: 4rem;
+    --t-xxl: 7rem;
     --s-s: 0.5rem;
     --s-m: 1rem;
     --s-l: 2rem;
     --s-xl: 3rem;
-    --s-xxl: 6rem;
+    --s-xxl: 5rem;
     --s-xxxl: 10rem;
   }
 }
+.nav__item a, .gallery__caption {
+  font-family: var(--f-text);
+  font-display: swap;
+  font-style: normal;
+  font-weight: normal;
+  font-size: var(--t-s);
+  line-height: 1.3;
+  margin: 0;
+}
+
 .header__title {
   font-family: var(--f-display);
   font-display: swap;
   font-style: normal;
   font-weight: normal;
-  font-size: 20vw;
   text-align: center;
   line-height: 1;
 }
 
-@media screen and (min-width: 512px) {
-  .header__title {
-    font-size: 15vw;
-  }
-}
-@media screen and (min-width: 768px) {
-  .header__title {
-    font-size: 15vw;
-  }
-}
-body, .page__description, .form__item label span, .form__item textarea {
-  font-family: var(--f-text);
+.page__link {
+  font-family: var(--f-display);
   font-display: swap;
   font-style: normal;
   font-weight: normal;
-  font-size: var(--t-m);
-  line-height: 1.3;
-  margin: 0;
-}
-
-body a, .page__description a, .form__item label span a, .form__item textarea a {
-  color: var(--c-graphic);
-}
-
-body a:hover, .page__description a:hover, .form__item label span a:hover, .form__item textarea a:hover {
-  color: var(--c-text);
-}
-
-body a:active, .page__description a:active, .form__item label span a:active, .form__item textarea a:active {
-  color: var(--c-graphic);
+  line-height: 1;
+  font-size: var(--t-xxl);
 }
 
 .page__title {
@@ -852,10 +1192,9 @@ body a:active, .page__description a:active, .form__item label span a:active, .fo
   font-weight: normal;
   font-size: var(--t-xl);
   line-height: 1.2;
-  margin: 0;
 }
 
-.form__title, .form__item {
+.page__subtitle, .page__description-title {
   font-family: var(--f-text);
   font-display: swap;
   font-style: normal;
@@ -864,333 +1203,93 @@ body a:active, .page__description a:active, .form__item label span a:active, .fo
   line-height: 1.2;
 }
 
-.form__title {
-  margin-top: 0;
-  margin-bottom: var(--s-m);
+body, .page__description, .intro__contact {
+  font-family: var(--f-text);
+  font-display: swap;
+  font-style: normal;
+  font-weight: normal;
+  font-size: var(--t-m);
+  line-height: 1.3;
+  margin: 0;
 }
 
-.form__description {
-  margin-bottom: var(--s-xl);
+body a, .page__description a, .intro__contact a {
+  color: var(--c-graphic);
 }
-.form__description strong {
+
+body a:hover, .page__description a:hover, .intro__contact a:hover {
+  color: var(--c-text);
+}
+
+body a:active, .page__description a:active, .intro__contact a:active {
+  color: var(--c-graphic);
+}
+
+strong {
   font-family: var(--f-text-bold);
-}
-
-.form {
-  margin-top: var(--s-xl);
-}
-
-.form-success {
-  display: none;
-}
-
-.form__item {
-  display: flex;
-  flex-wrap: wrap;
-  margin-bottom: var(--s-xl);
-}
-.form__item.hidden {
-  display: none;
-}
-.form__item label {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  flex-basis: 100%;
-  margin-bottom: var(--s-m);
-}
-@media screen and (min-width: 768px) {
-  .form__item label {
-    margin-bottom: 0;
-  }
-}
-.form__item label span {
-  flex-basis: 100%;
-}
-.form__item input {
-  height: var(--s-xxl);
-  flex-basis: 100%;
-  width: 100%;
-  box-sizing: border-box;
-  padding: var(--s-m);
-  background-color: transparent;
-  border: 1px solid var(--c-graphic);
-  border-radius: 0;
-  color: var(--c-graphic);
-}
-.form__item input[type=submit] {
-  transition: all 0.2s ease;
-  cursor: pointer;
-  background-color: var(--c-graphic);
-  color: var(--c-background);
-  text-transform: uppercase;
-  height: auto;
-}
-.form__item input[type=submit]:hover {
-  background-color: var(--c-text);
-  color: var(--c-background);
-}
-.form__item input[type=radio] {
-  appearance: none;
-  display: inline-block;
-  width: var(--s-xl);
-  height: var(--s-xl);
-  flex-basis: var(--s-xl);
-  padding: var(--s-s);
-  background-clip: content-box;
-  border: 2px solid var(--c-text);
-  border-radius: 50%;
-  margin-right: 1rem;
-  flex-shrink: 0;
-  cursor: pointer;
-}
-.form__item input[type=radio]:checked {
-  background-color: var(--c-graphic);
-}
-.form__item select {
-  height: var(--s-xxl);
-  flex-basis: 100%;
-  width: 100%;
-  box-sizing: border-box;
-  padding: var(--s-m);
-  background-color: transparent;
-  border: 1px solid var(--c-graphic);
-  border-radius: 0;
-  color: var(--c-graphic);
-}
-.form__item select::after {
-  content: "asdas";
-}
-.form__item select option {
-  background-color: var(--c-graphic);
-  color: var(--c-background);
-}
-.form__item textarea {
-  flex-basis: 100%;
-  width: 100%;
-  height: var(--s-xxxl);
-  box-sizing: border-box;
-  padding: var(--s-m);
-  background-color: transparent;
-  border: 1px solid var(--c-graphic);
-  border-radius: 0;
-  color: var(--c-graphic);
-}
-@media screen and (min-width: 768px) {
-  .form__item label {
-    flex-basis: 40%;
-    width: 40%;
-  }
-  .form__item input,
-.form__item select,
-.form__item textarea {
-    flex-basis: 60%;
-    width: 60%;
-  }
-  .form__item input[type=submit] {
-    margin-left: 40%;
-    transition: all 0.2s ease;
-    cursor: pointer;
-  }
-}
-
-.form__radio {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  margin-bottom: var(--s-l);
-}
-@media screen and (min-width: 768px) {
-  .form__radio {
-    margin-left: 40%;
-    flex-basis: 60%;
-    width: 60%;
-  }
-}
-.form__radio label {
-  flex-grow: 1;
-  margin-bottom: 0;
-}
-
-/* --------------------------------------------------------
-RESPONSIVE QUERY MIXIN
-Usage Example: 
-    @include mixins.respond-above(s-l) {
-        // color: red;
-    };
-The arguments can be any of the variable key names in ../abstracts/_responsize-sizes.scss.
--------------------------------------------------------- */
-:root {
-  --c-background: #fbf6ef;
-  --c-text: #46844f;
-  --c-graphic: #ab5392;
-  --f-display: "Daleys Gothic Bd", monospace, sans-serif;
-  --f-text: "Quiosco Reg", serif;
-  --f-text-bold: "Quiosco Bd", serif;
-  --t-s: 1rem;
-  --t-m: 1.3rem;
-  --t-l: 2rem;
-  --t-xl: 3rem;
-  --s-s: 0.25rem;
-  --s-m: 0.5rem;
-  --s-l: 1rem;
-  --s-xl: 2rem;
-  --s-xxl: 3rem;
-  --s-xxxl: 4rem;
-}
-
-@media screen and (min-width: 512px) {
-  :root {
-    --t-s: 1rem;
-    --t-m: 1.5rem;
-    --t-l: 2.25rem;
-    --t-xl: 3.5rem;
-    --s-s: 0.25rem;
-    --s-m: 0.75rem;
-    --s-l: 1.5rem;
-    --s-xl: 2.5rem;
-    --s-xxl: 4rem;
-    --s-xxxl: 6rem;
-  }
-}
-@media screen and (min-width: 768px) {
-  :root {
-    --t-s: 1rem;
-    --t-m: 1.75rem;
-    --t-l: 2.5rem;
-    --t-xl: 4rem;
-    --s-s: 0.5rem;
-    --s-m: 1rem;
-    --s-l: 1.75rem;
-    --s-xl: 2.75rem;
-    --s-xxl: 5rem;
-    --s-xxxl: 8rem;
-  }
-}
-@media screen and (min-width: 1024px) {
-  :root {
-    --t-s: 1rem;
-    --t-m: 2rem;
-    --t-l: 3rem;
-    --t-xl: 5rem;
-    --s-s: 0.5rem;
-    --s-m: 1rem;
-    --s-l: 2rem;
-    --s-xl: 3rem;
-    --s-xxl: 6rem;
-    --s-xxxl: 10rem;
-  }
-}
-.header__title {
-  font-family: var(--f-display);
   font-display: swap;
   font-style: normal;
   font-weight: normal;
-  font-size: 20vw;
-  text-align: center;
-  line-height: 1;
-}
-
-@media screen and (min-width: 512px) {
-  .header__title {
-    font-size: 15vw;
-  }
-}
-@media screen and (min-width: 768px) {
-  .header__title {
-    font-size: 15vw;
-  }
-}
-body, .page__description, .form__item label span, .form__item textarea {
-  font-family: var(--f-text);
-  font-display: swap;
-  font-style: normal;
-  font-weight: normal;
-  font-size: var(--t-m);
-  line-height: 1.3;
-  margin: 0;
-}
-
-body a, .page__description a, .form__item label span a, .form__item textarea a {
-  color: var(--c-graphic);
-}
-
-body a:hover, .page__description a:hover, .form__item label span a:hover, .form__item textarea a:hover {
-  color: var(--c-text);
-}
-
-body a:active, .page__description a:active, .form__item label span a:active, .form__item textarea a:active {
-  color: var(--c-graphic);
-}
-
-.page__title {
-  font-family: var(--f-text);
-  font-display: swap;
-  font-style: normal;
-  font-weight: normal;
-  font-size: var(--t-xl);
-  line-height: 1.2;
-  margin: 0;
-}
-
-.form__title, .form__item {
-  font-family: var(--f-text);
-  font-display: swap;
-  font-style: normal;
-  font-weight: normal;
-  font-size: var(--t-l);
-  line-height: 1.2;
 }
 
 .intro {
   display: flex;
   flex-wrap: wrap;
   margin-bottom: var(--s-xl);
-  justify-content: center;
+  flex-basis: 100%;
+}
+@media screen and (min-width: 1024px) {
+  .intro {
+    flex-basis: calc(50% - var(--s-l));
+    margin-right: var(--s-l);
+  }
 }
 
 .intro__info {
+  margin-top: var(--s-m);
+}
+
+.intro__contact {
+  margin-top: var(--s-l);
+  flex-basis: 100%;
+}
+
+.page__nav {
+  flex-basis: 100%;
+}
+@media screen and (min-width: 1024px) {
+  .page__nav {
+    flex-basis: calc(50% - var(--s-l));
+    margin-right: var(--s-l);
+  }
+}
+
+.page__links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
   display: flex;
   flex-wrap: wrap;
-  flex-basis: 100%;
-  text-align: left;
-  justify-content: flex-start;
+}
+
+.page__link {
+  margin: 0;
   margin-bottom: var(--s-l);
-}
-@media screen and (min-width: 512px) {
-  .intro__info {
-    text-align: center;
-    justify-content: center;
-  }
-}
-
-.intro__message {
-  flex-basis: 100%;
-  justify-self: flex-start;
-  text-align: left;
-  margin-bottom: var(--s-m);
+  flex-basis: calc(50% - var(--s-l));
+  margin-right: var(--s-l);
 }
 @media screen and (min-width: 1024px) {
-  .intro__message {
-    justify-self: center;
-    text-align: center;
-  }
-}
-
-.intro__description {
-  margin-top: var(--s-m);
-  flex-basis: 100%;
-}
-@media screen and (min-width: 1024px) {
-  .intro__description {
-    flex-basis: 50%;
+  .page__link {
+    flex-basis: 100%;
+    margin-right: 0;
   }
 }
 
 .gallery {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
+  align-items: flex-start;
+  flex-basis: 100%;
   margin-top: var(--s-xxl);
 }
 
@@ -1199,11 +1298,11 @@ body a:active, .page__description a:active, .form__item label span a:active, .fo
   margin: 0;
   display: flex;
   flex-wrap: wrap;
+  flex-basis: 100%;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1024px) {
   .gallery__image {
     flex-basis: calc(50% - var(--s-l));
-    width: calc(50% - var(--s-l));
     margin-right: var(--s-l);
   }
 }
@@ -1212,6 +1311,21 @@ body a:active, .page__description a:active, .form__item label span a:active, .fo
   height: 100%;
   object-fit: cover;
   margin-bottom: var(--s-l);
+}
+
+.gallery__video {
+  margin: 0;
+  padding: 0;
+  margin-top: var(--s-l);
+  width: 100%;
+  margin-bottom: var(--s-xxl);
+}
+.gallery__video iframe {
+  width: 100%;
+}
+
+.gallery__caption {
+  margin-top: var(--s-m);
 }
 
 /*# sourceMappingURL=style.css.map */

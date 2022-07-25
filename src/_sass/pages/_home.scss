@@ -6,53 +6,62 @@
     display: flex;
     flex-wrap: wrap;
     margin-bottom: var(--s-xl);
-    justify-content: center;
-}
-
-.intro__info {
-    display: flex;
-    flex-wrap: wrap;
     flex-basis: 100%;
-    text-align: left;
-    justify-content: flex-start;
-    margin-bottom: var(--s-l);
 
-    @include mixins.respond-above(variables.$break-s) {
-        text-align: center;
-        justify-content: center;
+    @include mixins.respond-above(variables.$break-l) {
+        flex-basis: calc(50% - var(--s-l));
+        margin-right: var(--s-l);
     }
 }
 
 .intro__message {
+}
+
+.intro__info {
+    margin-top: var(--s-m);
+}
+
+.intro__contact {
+    @extend %body;
+    margin-top: var(--s-l);
     flex-basis: 100%;
-    justify-self: flex-start;
-    text-align: left;
-    margin-bottom: var(--s-m);
+}
+
+.page__nav {
+    flex-basis: 100%;
 
     @include mixins.respond-above(variables.$break-l) {
-        justify-self: center;
-        text-align: center;
+        flex-basis: calc(50% - var(--s-l));
+        margin-right: var(--s-l);
     }
 }
 
-.intro__location {
+.page__links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.intro__date {
-}
+.page__link {
+    @extend %page-nav;
+    margin: 0;
+    margin-bottom: var(--s-l);
+    flex-basis: calc(50% - var(--s-l));
+    margin-right: var(--s-l);
 
-.intro__description {
-    margin-top: var(--s-m);
-    flex-basis: 100%;
     @include mixins.respond-above(variables.$break-l) {
-        flex-basis: 50%;
+        flex-basis: 100%;
+        margin-right: 0;
     }
 }
 
 .gallery {
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
+    align-items: flex-start;
+    flex-basis: 100%;
     margin-top: var(--s-xxl);
 }
 
@@ -61,10 +70,10 @@
     margin: 0;
     display: flex;
     flex-wrap: wrap;
+    flex-basis: 100%;
 
-    @include mixins.respond-above(variables.$break-m) {
+    @include mixins.respond-above(variables.$break-l) {
         flex-basis: calc(50% - var(--s-l));
-        width: calc(50% - var(--s-l));
         margin-right: var(--s-l);
     }
 
@@ -74,4 +83,21 @@
         object-fit: cover;
         margin-bottom: var(--s-l);
     }
+}
+
+.gallery__video {
+    margin: 0;
+    padding: 0;
+    margin-top: var(--s-l);
+    width: 100%;
+    margin-bottom: var(--s-xxl);
+
+    iframe {
+        width: 100%;
+    }
+}
+
+.gallery__caption {
+    @extend %nav;
+    margin-top: var(--s-m);
 }

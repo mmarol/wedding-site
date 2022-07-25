@@ -1,4 +1,0 @@
----
-title: "RSVP"
-layout: base
----

@@ -1,0 +1,40 @@
+@use "../abstracts/variables";
+@use "../abstracts/type-styles";
+@use "../abstracts/mixins";
+
+.nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+.nav__items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0;
+    padding: var(--s-m) var(--s-xl) var(--s-l) var(--s-xl);
+    list-style: none;
+    background: var(--c-background);
+    background: linear-gradient(to bottom, var(--c-background) 80%, rgba(251, 246, 239, 0));
+}
+
+.nav__item {
+    line-height: 0;
+
+    a {
+        @extend %nav;
+        color: var(--c-graphic);
+    }
+
+    &.active {
+        a {
+            color: var(--c-text);
+            text-decoration: none;
+        }
+    }
+}

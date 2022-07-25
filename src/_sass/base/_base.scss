@@ -6,3 +6,7 @@ body {
     color: var(--c-text);
     @extend %body;
 }
+
+strong {
+    @extend %body-bold;
+}
