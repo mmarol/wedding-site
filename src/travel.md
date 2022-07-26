@@ -63,6 +63,8 @@ headerImageB: "/assets/images/illustration-4-a.png"
                 hospitals spread across the city. If you need to purchase medical supplies in Bangalore, please bring
                 your ID and vaccine documentation with you.
             </p>
+            <p class="page__description"><strong>If you are experiencing symptoms or test positive, please let us know
+                    and do not attend the events.</strong></p>
         </div>
     </article>
     <article class="page__row">
