@@ -78,7 +78,7 @@ headerImageB: "/assets/images/illustration-3-a.png"
             <h2 class="page__title">Gifts</h2>
         </div>
         <div class="page__column">
-            <p class="page__description">Please, no gifts! We do not have a registry or fund. Your presence is the only gift we need.</p>
+            <p class="page__description">Please, no gifts! We do not have a registry or fund. Your love is the only gift we need.</p>
         </div>
     </article>
 </section>
