@@ -1,8 +1,8 @@
 ---
 title: "Stay"
 layout: base
-headerImageA: "/assets/images/Illustration-6-a.png"
-headerImageB: "/assets/images/Illustration-6-b.png"
+headerImageA: "/assets/images/illustration-6-a.png"
+headerImageB: "/assets/images/illustration-6-b.png"
 ---
 
 <section class="page__header">

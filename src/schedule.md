@@ -1,8 +1,8 @@
 ---
 title: "Schedule"
 layout: base
-headerImageA: "/assets/images/Illustration-1-a.png"
-headerImageB: "/assets/images/Illustration-1-b.png"
+headerImageA: "/assets/images/illustration-1-a.png"
+headerImageB: "/assets/images/illustration-1-b.png"
 ---
 
 <section class="page__header">

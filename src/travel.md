@@ -1,8 +1,8 @@
 ---
 title: "Travel"
 layout: base
-headerImageA: "/assets/images/Illustration-4-b.png"
-headerImageB: "/assets/images/Illustration-4-a.png"
+headerImageA: "/assets/images/illustration-4-b.png"
+headerImageB: "/assets/images/illustration-4-a.png"
 ---
 
 <section class="page__header">

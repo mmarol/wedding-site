@@ -1,8 +1,8 @@
 ---
 title: "Questions?"
 layout: base
-headerImageA: "/assets/images/Illustration-3-b.png"
-headerImageB: "/assets/images/Illustration-3-a.png"
+headerImageA: "/assets/images/illustration-3-b.png"
+headerImageB: "/assets/images/illustration-3-a.png"
 ---
 
 <section class="page__header">
