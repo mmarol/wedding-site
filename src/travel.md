@@ -108,7 +108,7 @@ headerImageB: "/assets/images/illustration-4-a.png"
                     <li>Kumarakom (backwaters, houseboats)</li>
                     <li>Mahabalipuram (history, beach)</li>
                     <li>Pondicherry (Aurobindo Ashram, former French colony, heritage)</li>
-                    <li>Munnar/Ooty (tea plantations, hill station)</li>
+                    <li>Munnar, Ooty (tea plantations, hill station)</li>
                 </ul>
             </div>
             <div class="page__description-section">
@@ -116,10 +116,10 @@ headerImageB: "/assets/images/illustration-4-a.png"
                 <p class="page__description">Some tourist spots within a few hours drive from Bangalore are:
                 </p>
                 <ul>
-                    <li>Coorg/Chikamagalur (coffee estate/wildlife)</li>
-                    <li>Kabini/Bandipur/Nagarhole (wildlife sanctuaries)</li>
+                    <li>Coorg, Chikamagalur (coffee estate/wildlife)</li>
+                    <li>Kabini, Bandipur, Nagarhole (wildlife sanctuaries)</li>
                     <li>
-                        Belur-Halebid/Mysore/Somnathpur/Shravanabelagola/Srirangapatna/Hampi (history, heritage,
+                        Belur-Halebid, Mysore, Somnathpur, Shravanabelagola, Srirangapatna, Hampi (history, heritage,
                         monuments, temple architecture, stone carving).
                     </li>
                 </ul>
