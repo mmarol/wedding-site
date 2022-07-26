@@ -25,7 +25,7 @@ headerImageB: "/assets/images/illustration-1-b.png"
                     Mehndi<br>
                     3-7pm
                 </h3>
-                <p class="page__description">Two mehndi artists will be available after lunch for all those who want to
+                <p class="page__description">Two henna artists will be available after lunch for all those who want to
                     participate.
                     This will take a few hours depending on the number of people.</p>
                 <p class="page__description">Avoid long sleeves if you're planning to have mehndi done - otherwise,
@@ -36,7 +36,8 @@ headerImageB: "/assets/images/illustration-1-b.png"
                     Party<br>
                     7-10:30pm
                 </h3>
-                <p class="page__description">Drinks & dinner, and dancing to Bollywood music! Festive attire.</p>
+                <p class="page__description">Drinks & dinner, and dancing to Bollywood music! Festive attire. (If you
+                    attend the Mehndi, you can change for the party at the venue or at Jay’s home nearby)</p>
             </div>
         </div>
     </article>
@@ -54,14 +55,14 @@ headerImageB: "/assets/images/illustration-1-b.png"
                     Wedding Ceremony<br>
                     9am-noon
                 </h3>
-                <p class="page__description">The traditional Indian wedding ceremony will be conducted in an intimate
+                <p class="page__description">A traditional Indian wedding ceremony will be conducted in an intimate
                     outdoor venue. Formal attire.</p>
-                <p class="page__description">For the immediate family, pre-ceremony rituals will start at 8 a.m.</p>
-                <p class="page__description">The main
-                    part of the ceremony will be at around 10 a.m.</p>
-                <p class="page__description">An early vegetarian breakfast for guests of the ceremony will be served 8 -
-                    9
-                    a.m.</p>
+                <p class="page__description">For the immediate family, pre-ceremony rituals will start at 8am</p>
+                <p class="page__description">The main ceremony will start at around 9am, with the most auspicious
+                    sequence
+                    (muhurtam) being at 10am</p>
+                <p class="page__description">An early vegetarian breakfast for guests of the ceremony will be served
+                    8-9am</p>
             </div>
             <div class="page__description-section">
                 <h3 class="page__description-title">
