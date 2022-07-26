@@ -31,7 +31,8 @@ headerImageB: "/assets/images/Illustration-4-a.png"
             <p class="page__description"><strong>Most non-Indian nationals have to apply for a Tourist Visa to enter the
                     country.</strong> While the e-visa application process is quick, we recommend reviewing the process
                 ahead of time. Here is <a href="https://www.cgisf.gov.in/page/e-visa/">a useful resource</a> to get you
-                started.</p>
+                started. Please contact us if you need information (such as names and addresses) for form-filling-out
+                purposes.</p>
         </div>
     </article>
     <article class="page__row">
@@ -41,9 +42,9 @@ headerImageB: "/assets/images/Illustration-4-a.png"
         <div class="page__column">
             <p class="page__description">Plan to fly into Bangalore International Airport (BLR). Travel to India from
                 the US is long and time zone changes are disorienting! We recommend planning a day for travel and at
-                least a day for recovery if possible. If possible, book your flights many months in advance. A lot of
-                travel happens in the first week of the new year as it’s a very auspicious time, so prices will shoot up
-                very rapidly.</p>
+                least a day for recovery if possible. Dec-Jan is prime tourist season, so prices
+                are rapidly increasing.
+            </p>
         </div>
     </article>
     <article class="page__row">
@@ -53,21 +54,14 @@ headerImageB: "/assets/images/Illustration-4-a.png"
         <div class="page__column">
             <p class="page__description">The COVID situation is ever shifting, so the requirements for international
                 travel are not set in stone. Please check regularly in case they change.</p>
-            <p class="page__description">Please make sure you are up to date on your vaccinations, and plan to carry N94
-                or kN94 masks. Please do an at-home test before and after arrival. We highly encourage folks to wear
-                masks to the events as there will be between 100-300 people depending on the event. Getting medical care
-                in Bangalore will not be an issue as there are plenty of clinics and hospitals spread across the city.
+            <p class="page__description">Please make sure you are up to date on your vaccinations, and plan to carry
+                masks with KN95 level filtration or higher. You will also need to have your vaccine card on hand to
+                enter businesses or venues. Please do an at-home test before and after arrival. We highly encourage
+                guests to wear masks to the events as some will be indoors and/or high volume. Testing supplies, masks,
+                and medical care in Bangalore will be widely accessible as there are plenty of pharmacies, clinics, and
+                hospitals spread across the city. If you need to purchase medical supplies in Bangalore, please bring
+                your ID and vaccine documentation with you.
             </p>
-        </div>
-    </article>
-    <article class="page__row">
-        <div class="page__column">
-            <h2 class="page__title">Sightseeing</h2>
-        </div>
-        <div class="page__column">
-            <p class="page__description">India is a huge country, so if you’re planning on travelling outside of
-                Bangalore, we would suggest focusing on a specific part of the country instead of trying to hit every
-                sightseeing spot.</p>
         </div>
     </article>
     <article class="page__row">
@@ -77,8 +71,8 @@ headerImageB: "/assets/images/Illustration-4-a.png"
         <div class="page__column">
             <p class="page__description">Make sure to notify your bank that you will be travelling internationally. You
                 should be able to withdraw cash from most ATMs. </p>
-            <p class="page__description">Alternatively you can see if an international debit card is worth purchasing.
-                As a backup, carrying traveller’s checks is worth considering.</p>
+            <p class="page__description">Alternatively, you may wish to purchase an international currency card.
+                Carrying traveller’s checks is also worth considering as a backup.</p>
         </div>
     </article>
     <article class="page__row">
@@ -90,7 +84,64 @@ headerImageB: "/assets/images/Illustration-4-a.png"
                 copy of your passport and visa for the process. The local SIM card is very useful for paying for things
                 through your phone, as apps similar to Venmo or the Cash App are used extensively in India.</p>
             <p class="page__description">Alternatively, the international roaming options on your current phone plan may
-                be more than enough.</p>
+                be more than enough. Do check for India packages through your phone network operators.</p>
+        </div>
+    </article>
+    <article class="page__row">
+        <div class="page__column">
+            <h2 class="page__title">Sightseeing</h2>
+        </div>
+        <div class="page__column">
+            <div class="page__description-section">
+                <h3 class="page__description-title">India</h3>
+                <p class="page__description">India is a huge country, so if you’re planning on traveling outside of
+                    Bangalore, we would suggest focusing on a specific part of the country instead of trying to hit
+                    every sightseeing spot. Weather-wise, North India will be much colder than South India’s mild
+                    winter. Note that if you visit any temples, your clothes should cover your arms and legs. Popular
+                    destinations are:
+                    - Goa (beaches and nightlife)
+                    - Cochin (history, fort)
+                    - Kumarakom (backwaters, houseboats)
+                    - Mahabalipuram (history, beach)
+                    - Pondicherry (Aurobindo Ashram, former French colony, heritage)
+                    - Munnar/Ooty (tea plantations, hill station)</p>
+            </div>
+            <div class="page__description-section">
+                <h3 class="page__description-title">Around Bangalore</h3>
+                <p class="page__description">Some tourist spots within a few hours drive from Bangalore are:
+                    - Coorg/Chikamagalur (coffee estate/wildlife)
+                    - Kabini/Bandipur/Nagarhole (wildlife sanctuaries)
+                    - Belur-Halebid/Mysore/Somnathpur/Shravanabelagola/Srirangapatna/Hampi (history, heritage,
+                    monuments, temple architecture, stone carving). </p>
+            </div>
+            <div class="page__description-section">
+                <h3 class="page__description-title">In Bangalore</h3>
+                <p class="page__description">Sight-seeing in Bangalore is a bit underwhelming; don’t devote more than a
+                    day to it. Some places to visit are:</p>
+                <ul>
+                    <li>Vidhana Soudha</li>
+                    <li>Cubbon Park</li>
+                    <li>Lalbagh</li>
+                    <li>Bangalore Palace</li>
+                    <li>Tipu’s summer palace</li>
+                    <li>Bannerghatta National Park</li>
+                    <li>Big Banyan Tree</li>
+                    <li>Bull Temple</li>
+                    <li>Iskcon temple</li>
+                    <li>St. Mary’s Basilica</li>
+                    <li>National Gallery of Modern Art</li>
+                    <li>Indian Music Experience</li>
+                    <li>Nrityagram Dance Village</li>
+                </ul>
+                <p class="page__description">Check out Rangashankara, Chowdaiah Memorial Hall, or Bangalore
+                    International
+                    Center for classical dance and music shows.</p>
+                <p class="page__description">What Bangalore is good at is food and pubs. There is a wide variety of
+                    cuisines available to suit every budget and palate. Explore & enjoy!</p>
+                <p class="page__description">Shopping is another fun thing to do in Bangalore: clothes, crafts, jewelry,
+                    fabrics, silk. Commercial Street, M.G. Road, Indiranagar, Jayanagar 4th Block are popular
+                    destinations for street-style shopping. There are many malls too.</p>
+            </div>
         </div>
     </article>
 </section>

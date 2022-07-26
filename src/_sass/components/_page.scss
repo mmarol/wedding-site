@@ -43,6 +43,10 @@
     margin-bottom: var(--s-l);
 }
 
+.page__description-section {
+    margin-bottom: var(--s-xl);
+}
+
 .page__description-title {
     @extend %subtitle;
     color: var(--c-text);
@@ -76,4 +80,8 @@
         color: var(--c-background);
         background-color: var(--c-graphic);
     }
+}
+
+.page__image {
+    width: 100%;
 }

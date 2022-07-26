@@ -855,6 +855,10 @@ strong {
   margin-bottom: var(--s-l);
 }
 
+.page__description-section {
+  margin-bottom: var(--s-xl);
+}
+
 .page__description-title {
   color: var(--c-text);
   margin: 0;
@@ -882,6 +886,10 @@ strong {
 .page__button:hover {
   color: var(--c-background);
   background-color: var(--c-graphic);
+}
+
+.page__image {
+  width: 100%;
 }
 
 /* --------------------------------------------------------
