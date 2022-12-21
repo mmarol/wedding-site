@@ -456,6 +456,15 @@ The arguments can be any of the variable key names in ../abstracts/_responsize-s
   line-height: 1.2;
 }
 
+.page__description-subtitle {
+  font-family: var(--f-text);
+  font-display: swap;
+  font-style: normal;
+  font-weight: normal;
+  font-size: var(--t-m);
+  line-height: 1.3;
+}
+
 .intro__contact, .page__description, body {
   font-family: var(--f-text);
   font-display: swap;
@@ -607,6 +616,15 @@ The arguments can be any of the variable key names in ../abstracts/_responsize-s
   font-weight: normal;
   font-size: var(--t-l);
   line-height: 1.2;
+}
+
+.page__description-subtitle {
+  font-family: var(--f-text);
+  font-display: swap;
+  font-style: normal;
+  font-weight: normal;
+  font-size: var(--t-m);
+  line-height: 1.3;
 }
 
 .intro__contact, .page__description, body {
@@ -789,6 +807,15 @@ The arguments can be any of the variable key names in ../abstracts/_responsize-s
   line-height: 1.2;
 }
 
+.page__description-subtitle {
+  font-family: var(--f-text);
+  font-display: swap;
+  font-style: normal;
+  font-weight: normal;
+  font-size: var(--t-m);
+  line-height: 1.3;
+}
+
 .intro__contact, body, .page__description {
   font-family: var(--f-text);
   font-display: swap;
@@ -862,6 +889,15 @@ strong {
 .page__description-title {
   color: var(--c-text);
   margin: 0;
+}
+
+.page__description-subtitle {
+  color: var(--c-text);
+  margin: 0;
+  margin-bottom: 2rem;
+}
+.page__description-subtitle a {
+  color: var(--c-text);
 }
 
 .page__description + .page__description {
@@ -1009,6 +1045,15 @@ The arguments can be any of the variable key names in ../abstracts/_responsize-s
   font-weight: normal;
   font-size: var(--t-l);
   line-height: 1.2;
+}
+
+.page__description-subtitle {
+  font-family: var(--f-text);
+  font-display: swap;
+  font-style: normal;
+  font-weight: normal;
+  font-size: var(--t-m);
+  line-height: 1.3;
 }
 
 .intro__contact, body, .page__description {
@@ -1209,6 +1254,15 @@ The arguments can be any of the variable key names in ../abstracts/_responsize-s
   font-weight: normal;
   font-size: var(--t-l);
   line-height: 1.2;
+}
+
+.page__description-subtitle {
+  font-family: var(--f-text);
+  font-display: swap;
+  font-style: normal;
+  font-weight: normal;
+  font-size: var(--t-m);
+  line-height: 1.3;
 }
 
 body, .page__description, .intro__contact {

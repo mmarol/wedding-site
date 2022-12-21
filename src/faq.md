@@ -42,12 +42,12 @@ headerImageB: "/assets/images/illustration-3-a.png"
         </div>
         <div class="page__column">
             <p class="page__description">
-                <strong>Mehndi</strong><br>
+                <strong>Haldi & Mehndi</strong><br>
                 Party casual<br>
                 If you would like to get henna applied on your arms, avoid long sleeved clothes
             </p>
             <p class="page__description">
-                <strong>Wedding</strong><br>
+                <strong>Wedding ceremony</strong><br>
                 Formal<br>
                 Indian formal wear can be bought around the MG Road neighborhood<br>
                 Avoid pure black or white as it is inauspicious
