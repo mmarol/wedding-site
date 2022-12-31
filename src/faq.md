@@ -13,6 +13,107 @@ headerImageB: "/assets/images/illustration-3-a.png"
 <section class="page__section">
     <article class="page__row">
         <div class="page__column">
+            <h2 class="page__title">SIM Card</h2>
+        </div>
+        <div class="page__column">
+            <p class="page__description">It looks like people who’ve arrived already have been able to get a SIM card at the airport. The counter is right near the exit after custom and baggage claim.</p>
+        </div>
+    </article>
+    <article class="page__row">
+        <div class="page__column">
+            <h2 class="page__title">WhatsApp</h2>
+        </div>
+        <div class="page__column">
+            <p class="page__description">Whether you are using Indian phone number or not, WhatsApp would be good to download. The rates work out better since it just uses data instead of roaming or international text/call fees. The taxis we're organizing to the events will be communicating with you through WhatsApp.</p>
+        </div>
+    </article>
+    <article class="page__row">
+        <div class="page__column">
+            <h2 class="page__title">Currency exchange</h2>
+        </div>
+        <div class="page__column">
+            <p class="page__description">We’ve been able to withdraw money from the ATMs here. HDFC bank would be a safe bet. At the airport, your options are a Kotak Bank ATM near the exit or Thomas Cooke currency exchange. I would try the ATM first, as Thomas Cooke really rips you off.</p>
+        </div>
+    </article>
+     <article class="page__row">
+        <div class="page__column">
+            <h2 class="page__title">Dress code</h2>
+        </div>
+        <div class="page__column">
+            <p class="page__description">
+                <strong>Haldi & Mehndi</strong><br>
+                <em>Party casual</em><br>
+                If you would like to get henna applied on your arms, avoid long sleeved clothes
+            </p>
+            <p class="page__description">
+                <strong>Party</strong><br>
+                <em>Party casual</em><br>
+                There will be dancing, so dress for that! 
+            </p>
+            <p class="page__description">
+                <strong>Wedding ceremony</strong><br>
+                <em>Formal</em><br>
+                Indian formal wear can be bought around the Indiranagar or MG Road neighborhoods.
+            </p>
+            <p class="page__description">
+                <strong>Reception</strong><br>
+                <em>Formal</em><br>
+                This would be something that you would wear to a nice dinner or cocktail party. Receptions in Indian weddings do not involve dancing, they are more of a mingling type of event.
+            </p>
+            <p class="page__description">
+                Folks here tend to wear a different thing for each event, but there's no real pressure to do that. Something festive for the 2nd and formal for the 4th would be more than enough.
+            </p>
+            <p class="page__description">
+                Fabindia (in Indiranagar) is a safe bet for most Indian clothing needs.
+            </p>
+        </div>
+    </article>
+    <article class="page__row">
+        <div class="page__column">
+            <h2 class="page__title">Transportation to the Venue</h2>
+        </div>
+        <div class="page__column">
+            <p class="page__description">
+                3 cars that seat 6 people each will be organized to get everyone from the hotel to the various events, so please figure out amongst yourself how you’d like to split up between the cars.
+            </p>
+            <p class="page__description">
+                The events on the 2nd are around a 15-20 minute drive from the hotel. <br>
+                The events on the 4th are a 30-45 minute drive.
+            </p>
+        </div>
+    </article>
+    <article class="page__row">
+        <div class="page__column">
+            <h2 class="page__title">Tipping</h2>
+        </div>
+        <div class="page__column">
+            <p class="page__description">There is no real tipping culture in India, but 5-10% would be fine. At more everyday sit-down restaurants 20-30 ruppees, maybe 50 if you're feeling generous, would be more than enough. 20-30 for the hotel taxi would also be good.</p>
+        </div>
+    </article>
+    <article class="page__row">
+        <div class="page__column">
+            <h2 class="page__title">Food options</h2>
+        </div>
+        <div class="page__column">
+            <p class="page__description">
+                The hotel serves a large buffet style breakfast.
+                </p>
+            <p class="page__description">
+                For south indian “fast food” like dosa and idli, right on the other side of the street is a DVG Benne Dosa restaurant that should be great. We would recommend going there everyday and trying a couple new dishes. Make sure to get the coffee or tea at the end of the meal. Both come with milk and sugar, so you can't really get it black, but you can ask them for the sugar on the side usually.
+                </p>
+            <p class="page__description">
+                A short drive from the hotel is also an MTR, a beloved South Indian fast food restaurant which has been around for a long time.
+                </p>
+            <p class="page__description">
+                Indiranagar in general has a ton of food and bar options.
+            </p>
+            <p class="page__description">
+                We would also highly recommend getting tender coconut water from any of the carts you see on the streets. It's between 20-40 ruppees and is one of the most refreshing things when you're walking around.
+            </p>
+        </div>
+    </article>
+    <article class="page__row">
+        <div class="page__column">
             <h2 class="page__title">Weather</h2>
         </div>
         <div class="page__column">
@@ -30,40 +131,10 @@ headerImageB: "/assets/images/illustration-3-a.png"
     </article>
     <article class="page__row">
         <div class="page__column">
-            <h2 class="page__title">Transportation to the Venue</h2>
-        </div>
-        <div class="page__column">
-            <p class="page__description">Taxi cabs or shuttles will be organized to the various functions from the hotels listed on the <a href="/stay">Stay</a> page. It's about an hour’s drive from Jay's home to the ceremony venue.</p>
-        </div>
-    </article>
-    <article class="page__row">
-        <div class="page__column">
-            <h2 class="page__title">Dress code</h2>
-        </div>
-        <div class="page__column">
-            <p class="page__description">
-                <strong>Haldi & Mehndi</strong><br>
-                Party casual<br>
-                If you would like to get henna applied on your arms, avoid long sleeved clothes
-            </p>
-            <p class="page__description">
-                <strong>Wedding ceremony</strong><br>
-                Formal<br>
-                Indian formal wear can be bought around the MG Road neighborhood<br>
-                Avoid pure black or white as it is inauspicious
-            </p>
-            <p class="page__description">
-                <strong>Reception</strong><br>
-                Formal
-            </p>
-        </div>
-    </article>
-    <article class="page__row">
-        <div class="page__column">
             <h2 class="page__title">Virtual Option</h2>
         </div>
         <div class="page__column">
-            <p class="page__description">Some of the events may be livestreamed. This site will be updated and an email will be sent out with details closer to the date.</p>
+            <p class="page__description">We unfortunately will not be streaming the events virtually, but will share videos and photos.</p>
         </div>
     </article>
     <article class="page__row">
@@ -71,7 +142,7 @@ headerImageB: "/assets/images/illustration-3-a.png"
             <h2 class="page__title">Venue Accessibility</h2>
         </div>
         <div class="page__column">
-            <p class="page__description">All the venues except The Grand Mercure (where the Mehndi will be held) are wheelchair accessible. Please let us know if you require any additional assistance.</p>
+            <p class="page__description">All the venues except The Grand Mercure (where the Party will be held) are wheelchair accessible. Please let us know if you require any additional assistance.</p>
         </div>
     </article>
      <article class="page__row">
