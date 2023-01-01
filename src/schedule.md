@@ -120,7 +120,7 @@ headerImageB: "/assets/images/illustration-1-b.png"
             <div class="page__description-section">
                 <h3 class="page__description-title">
                     Reception<br>
-                    7:30-11pm
+                    7-11pm
                 </h3>
                 <h4 class="page__description-subtitle">
                     <a href="https://goo.gl/maps/wggqf8gzoyQGhcA38">
